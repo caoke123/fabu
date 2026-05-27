@@ -2,7 +2,7 @@ import { SELECTORS } from '../selectors.js'
 import config from '../config.js'
 import { logger } from '../../../utils/logger.js'
 import { captureError } from '../../../utils/screenshot.js'
-import { clickWithFallback, fillWithFallback, scrollIntoView } from '../../../utils/selector.js'
+import { clickWithFallback, fillWithFallback, scrollIntoView, waitForUploadByCount } from '../../../utils/selector.js'
 import { getMainImages, getDetailImages } from '../../../utils/fileHelper.js'
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
@@ -14,7 +14,11 @@ export async function run(page, product) {
   try {
     await scrollIntoView(page, '.ssc-input-cascader-container-single')
     const { selectCategory } = await import('../navigator.js')
-    await selectCategory(page, product.category)
+    const categoryLevels = product.platforms?.shopee?.category
+    if (!categoryLevels || categoryLevels.length === 0) {
+      throw new Error('platforms.shopee.category 为空，请填写品类')
+    }
+    await selectCategory(page, categoryLevels)
   } catch (err) {
     await captureError(page, '01_basicInfo_选品类')
     throw err
@@ -69,17 +73,9 @@ export async function run(page, product) {
       )
     ])
     await fileChooser.setFiles(mainImages)
-    await delay(config.timing.uploadWait * mainImages.length)
+    await waitForUploadByCount(page, mainImages.length, 'main')
 
-    try {
-      await page.waitForSelector(
-        '.basic-form-item-item_images-container .ssc-upload-picture-card-img-uploading-wrapper-success',
-        { timeout: config.timing.uploadWait * 2 }
-      )
-      logger.success(`主图上传完成，共 ${mainImages.length} 张`)
-    } catch {
-      logger.warn('主图上传验证超时')
-    }
+    logger.success(`主图上传完成，共 ${mainImages.length} 张`)
   } catch (err) {
     await captureError(page, '01_basicInfo_上传主图')
     throw err
@@ -88,17 +84,19 @@ export async function run(page, product) {
 
   // 4. 填写标题
   try {
+    const title = product.platforms?.shopee?.title
+    if (!title) throw new Error('platforms.shopee.title 为空')
     await scrollIntoView(page, SELECTORS.basicInfo.titleInput)
     await fillWithFallback(
       page,
       SELECTORS.basicInfo.titleInput,
       SELECTORS.basicInfo.titleInputFallback,
-      product.shopee.title,
+      title,
       '填写标题'
     )
     const actualTitle = await page.$eval(SELECTORS.basicInfo.titleInputFallback, el => el.value)
-    if (actualTitle !== product.shopee.title) {
-      logger.warn(`标题验证不一致: 期望="${product.shopee.title}" 实际="${actualTitle}"`)
+    if (actualTitle !== title) {
+      logger.warn(`标题验证不一致: 期望="${title}" 实际="${actualTitle}"`)
     } else {
       logger.success('标题验证通过')
     }
@@ -137,7 +135,7 @@ export async function run(page, product) {
     await page.waitForSelector(SELECTORS.basicInfo.descriptionEditorFallback, { timeout: 8000 })
     await page.click(SELECTORS.basicInfo.descriptionEditorFallback)
     await delay(500)
-    const descText = (product.shopee?.descriptionText || '').replace(/\[IMAGE\]/g, '').trim()
+    const descText = (product.platforms?.shopee?.description || '').replace(/\[IMAGE\]/g, '').trim()
     await page.keyboard.type(descText)
     await delay(config.timing.actionDelay)
 
@@ -164,7 +162,7 @@ export async function run(page, product) {
       if (!fileInput) throw new Error('未找到详情图 file input')
 
       await fileInput.setInputFiles(detailImages)
-      await delay(config.timing.uploadWait * detailImages.length)
+      await waitForUploadByCount(page, detailImages.length, 'detail')
 
       logger.success(`详情图上传完成，共 ${detailImages.length} 张`)
     } else {

@@ -1,0 +1,247 @@
+{
+  "productNo": "BBG00055",
+  "toolVersion": "4.5.0",
+  "createdAt": "2026-05-27T03:05:10.118Z",
+  "updatedAt": "2026-05-27T03:05:10.118Z",
+  "internal": {
+    "title": "可爱卡通香肠嘴包包挂件 彩色流苏多色可选 包包装饰趣味挂饰",
+    "description": "可爱卡通香肠嘴造型，多色可选，柔软流苏设计，为包包增添趣味与个性，树脂吊坠+布艺流苏，牢固不易掉，日常搭配提升时尚感，送礼自用两相宜。",
+    "category": "",
+    "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包"
+  },
+  "platforms": {
+    "shopee": {
+      "title": "Cute Sausage Mouth Bag Pendant Keychain - Colorful Tassel Charm for Bags",
+      "description": "[IMAGE] Add a burst of fun to your daily look with this adorable Sausage Mouth Bag Pendant! Featuring vibrant tassels and a charming cartoon design, it’s perfect for elevating any bag’s style. Made with durable resin and soft fabric, it’s both cute and long-lasting. Whether for daily commutes, travel, or gifting, this keychain/bag charm is a must-have accessory. [IMAGE] Crafted from high-quality resin (for the cartoon charm) and soft fabric (for the tassels), this pendant is lightweight yet sturdy, ensuring it stays securely attached to your bag. The colorful tassel details and playful sausage-mouth design make it a standout piece that complements various bag styles and outfits. [IMAGE] Ideal for attaching to handbags, backpacks, or even as a keychain. Perfect for adding a whimsical touch to your everyday accessories, or as a thoughtful gift for friends and family who love cute, unique items.",
+      "category": ["女包", "包包配件", "吊饰"],
+      "attributes": {
+        "brand": "NoBrand",
+        "origin": "中国大陆",
+        "material": "Resin, Fabric, Metal"
+      },
+      "logistics": {
+        "leadTime": 5,
+        "minimumOrderQty": 5,
+        "jit": true
+      },
+      "invitation": {
+        "code": "IVCN202507240989"
+      },
+      "status": "draft",
+      "publishedAt": null,
+      "shopeeItemId": null
+    }
+  },
+  "skus": [
+    {
+      "index": 0,
+      "skuCode": "BG-MX-0001",
+      "nameZh": "绿色香肠嘴挂件",
+      "nameEn": "Green Sausage Mouth Charm",
+      "weight": 30,
+      "size": {
+        "length": 25,
+        "width": 5,
+        "height": 5,
+        "unit": "cm"
+      },
+      "pricing": {
+        "cost": 0,
+        "selling": 12,
+        "currency": "CNY"
+      },
+      "stock": 100,
+      "images": {
+        "primary": {
+          "index": 0,
+          "fileName": "SKU_1.jpg",
+          "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\SKU图\\SKU_1.jpg",
+          "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_1.jpg"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "skuCode": "BG-RD-0002",
+      "nameZh": "红色香肠嘴挂件",
+      "nameEn": "Red Sausage Mouth Charm",
+      "weight": 30,
+      "size": {
+        "length": 25,
+        "width": 5,
+        "height": 5,
+        "unit": "cm"
+      },
+      "pricing": {
+        "cost": 0,
+        "selling": 12,
+        "currency": "CNY"
+      },
+      "stock": 100,
+      "images": {
+        "primary": {
+          "index": 0,
+          "fileName": "SKU_2.jpeg",
+          "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\SKU图\\SKU_2.jpeg",
+          "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_2.jpeg"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "skuCode": "BG-CR-0003",
+      "nameZh": "黄色香肠嘴挂件",
+      "nameEn": "Yellow Sausage Mouth Charm",
+      "weight": 30,
+      "size": {
+        "length": 25,
+        "width": 5,
+        "height": 5,
+        "unit": "cm"
+      },
+      "pricing": {
+        "cost": 0,
+        "selling": 12,
+        "currency": "CNY"
+      },
+      "stock": 100,
+      "images": {
+        "primary": {
+          "index": 0,
+          "fileName": "SKU_3.jpeg",
+          "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\SKU图\\SKU_3.jpeg",
+          "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_3.jpeg"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "skuCode": "BG-MX-0004",
+      "nameZh": "橙色香肠嘴挂件",
+      "nameEn": "Orange Sausage Mouth Charm",
+      "weight": 30,
+      "size": {
+        "length": 25,
+        "width": 5,
+        "height": 5,
+        "unit": "cm"
+      },
+      "pricing": {
+        "cost": 0,
+        "selling": 12,
+        "currency": "CNY"
+      },
+      "stock": 100,
+      "images": {
+        "primary": {
+          "index": 0,
+          "fileName": "SKU_4.jpeg",
+          "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\SKU图\\SKU_4.jpeg",
+          "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_4.jpeg"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "skuCode": "BG-MX-0005",
+      "nameZh": "蓝色香肠嘴挂件",
+      "nameEn": "Blue Sausage Mouth Charm",
+      "weight": 30,
+      "size": {
+        "length": 25,
+        "width": 5,
+        "height": 5,
+        "unit": "cm"
+      },
+      "pricing": {
+        "cost": 0,
+        "selling": 12,
+        "currency": "CNY"
+      },
+      "stock": 100,
+      "images": {
+        "primary": {
+          "index": 0,
+          "fileName": "SKU_5.jpeg",
+          "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\SKU图\\SKU_5.jpeg",
+          "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_5.jpeg"
+        }
+      }
+    }
+  ],
+  "images": {
+    "main": [
+      {
+        "index": 0,
+        "fileName": "主_1.jpg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\产品主图\\主_1.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_1.jpg"
+      },
+      {
+        "index": 1,
+        "fileName": "主_2.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\产品主图\\主_2.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_2.jpeg"
+      },
+      {
+        "index": 2,
+        "fileName": "主_3.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\产品主图\\主_3.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_3.jpeg"
+      },
+      {
+        "index": 3,
+        "fileName": "主_4.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\产品主图\\主_4.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_4.jpeg"
+      },
+      {
+        "index": 4,
+        "fileName": "主_5.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\产品主图\\主_5.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_5.jpeg"
+      }
+    ],
+    "detail": [
+      {
+        "index": 0,
+        "fileName": "详情_1.jpg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\详情图\\详情_1.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_1.jpg"
+      },
+      {
+        "index": 1,
+        "fileName": "详情_2.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\详情图\\详情_2.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_2.jpeg"
+      },
+      {
+        "index": 2,
+        "fileName": "详情_3.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\详情图\\详情_3.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_3.jpeg"
+      },
+      {
+        "index": 3,
+        "fileName": "详情_4.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\详情图\\详情_4.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_4.jpeg"
+      },
+      {
+        "index": 4,
+        "fileName": "详情_5.jpeg",
+        "localPath": "D:\\图片\\素材包\\[BBG00055] 香肠嘴包包挂件_素材包\\详情图\\详情_5.jpeg",
+        "r2Url": "https://yutu.nv315.top/products/%5BBBG00055%5D%20%E9%A6%99%E8%82%A0%E5%98%B4%E5%8C%85%E5%8C%85%E6%8C%82%E4%BB%B6_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_5.jpeg"
+      }
+    ]
+  },
+  "pim": {
+    "syncedAt": null,
+    "status": "ready",
+    "notes": ""
+  },
+  "r2": {
+    "basePath": "products/[BBG00055] 香肠嘴包包挂件_素材包/",
+    "syncedAt": "2026-05-27T03:05:16.506Z"
+  }
+}

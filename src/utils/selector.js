@@ -60,3 +60,15 @@ export async function scrollIntoView(page, selector) {
     // 静默失败，不影响主流程
   }
 }
+
+/**
+ * 按图片数量动态计算等待时间，确保上传完成
+ * @param {Page} page
+ * @param {number} imageCount - 图片数量
+ * @param {string} type - 图片类型（main/detail/sku）
+ */
+export async function waitForUploadByCount(page, imageCount, type = 'main') {
+  const waitMs = Math.max(2000, imageCount * 1000)
+  logger.info(`图片上传等待 ${waitMs}ms (${imageCount} 张 ${type})`)
+  await page.waitForTimeout(waitMs)
+}

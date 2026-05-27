@@ -268,6 +268,10 @@ export const SELECTORS = {
     // 表格容器（用于等待表格渲染完成）
     tableContainer:
       '.ssc-table.listing-model-list',
+
+    // 批量填写「应用」按钮
+    applyBatchBtn:
+      '.product-batch-operation-bar .apply-btn',
   },
 
 

@@ -49,8 +49,8 @@ export async function goToCreateProduct(page, product) {
   await delay(config.timing.actionDelay)
 
   // 4. 填入邀请 ID
-  const invitationId = product.shopee?.invitationId
-  if (!invitationId) throw new Error('product.json 缺少 shopee.invitationId')
+  const invitationId = product.platforms?.shopee?.invitation?.code
+  if (!invitationId) throw new Error('product.json 缺少 platforms.shopee.invitation.code')
   await fillWithFallback(
     page,
     SELECTORS.entry.invitationIdInput,
@@ -120,13 +120,12 @@ export async function goToCreateProduct(page, product) {
   return newPage
 }
 
-export async function selectCategory(page, categoryKey) {
-  const levels = config.categories[categoryKey]
-  if (!levels || levels.length === 0) {
-    throw new Error(`未找到品类配置: ${categoryKey}`)
+export async function selectCategory(page, categoryLevels) {
+  if (!categoryLevels || categoryLevels.length === 0) {
+    throw new Error('platforms.shopee.category 为空，请填写品类')
   }
 
-  logger.info(`开始选择品类: ${categoryKey} -> ${levels.join(' / ')}`)
+  logger.info(`开始选择品类: ${categoryLevels.join(' / ')}`)
 
   await clickWithFallback(
     page,
@@ -136,7 +135,7 @@ export async function selectCategory(page, categoryKey) {
   )
   await delay(config.timing.cascadeDelay)
 
-  for (const levelText of levels) {
+  for (const levelText of categoryLevels) {
     const sel = `.ssc-cascader-node-label:has-text("${levelText}")`
     logger.info(`点击品类: ${levelText}`)
     await page.waitForSelector(sel, { timeout: 8000 })
