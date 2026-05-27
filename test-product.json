@@ -1,0 +1,152 @@
+{
+  "title": "可爱蓝星三角巾小熊毛绒挂件 包包挂饰钥匙扣 柔软萌趣装饰",
+  "productNo": "LSJX00031",
+  "category": "包包挂件",
+  "description": "采用柔软毛绒材质，造型萌趣的小白熊搭配清新蓝底黄星三角巾，小巧精致，可作包包、钥匙挂饰，为日常增添治愈感。",
+  "outerPackaging": {
+    "length": 12,
+    "width": 6,
+    "height": 8,
+    "weight": 0,
+    "presetName": ""
+  },
+  "skus": [
+    {
+      "skuCode": "BG-MX-0001",
+      "skuName": "蓝星三角巾小熊挂件",
+      "size": "12x6x8",
+      "weight": 68,
+      "costPrice": 0,
+      "sellingPrice": 15,
+      "image": "微信图片_20260114100821.jpg",
+      "stock": 100,
+      "skuNameEn": "Blue Star Triangle Bear"
+    },
+    {
+      "skuCode": "BG-MX-0002",
+      "skuName": "蓝星三角巾小熊对装",
+      "size": "12x6x8",
+      "weight": 136,
+      "costPrice": 0,
+      "sellingPrice": 30,
+      "image": "微信图片_202601141008214.jpg",
+      "stock": 100,
+      "skuNameEn": "Blue Star Triangle Bear Pair"
+    }
+  ],
+  "createdAt": "2026-05-24T15:47:19.360Z",
+  "toolVersion": "4.0.0-beta.1",
+  "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包",
+  "pim": {
+    "syncedAt": null,
+    "status": "draft"
+  },
+  "assets": {
+    "main": [
+      {
+        "fileName": "主_1.jpg",
+        "relativePath": "产品主图/主_1.jpg",
+        "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包\\产品主图\\主_1.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_1.jpg",
+        "uploaded": true
+      },
+      {
+        "fileName": "主_2.jpg",
+        "relativePath": "产品主图/主_2.jpg",
+        "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包\\产品主图\\主_2.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_2.jpg",
+        "uploaded": true
+      }
+    ],
+    "sku": [
+      {
+        "fileName": "SKU_1.jpg",
+        "relativePath": "SKU图/SKU_1.jpg",
+        "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包\\SKU图\\SKU_1.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_1.jpg",
+        "uploaded": true
+      },
+      {
+        "fileName": "SKU_2.jpg",
+        "relativePath": "SKU图/SKU_2.jpg",
+        "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包\\SKU图\\SKU_2.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_2.jpg",
+        "uploaded": true
+      }
+    ],
+    "detail": [
+      {
+        "fileName": "详情_1.jpg",
+        "relativePath": "详情图/详情_1.jpg",
+        "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包\\详情图\\详情_1.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_1.jpg",
+        "uploaded": true
+      },
+      {
+        "fileName": "详情_2.jpg",
+        "relativePath": "详情图/详情_2.jpg",
+        "localPath": "D:\\图片\\素材包\\[LSJX00031] 蓝星三角巾小熊_素材包\\详情图\\详情_2.jpg",
+        "r2Url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_2.jpg",
+        "uploaded": true
+      }
+    ],
+    "size": [],
+    "certificate": []
+  },
+  "shopee": {
+    "title": "Cute Blue Star Triangle Scarf Bear Plush Keychain Bag Charm",
+    "descriptionText": "Crafted from ultra-soft plush material, this cute blue star triangle scarf bear plush keychain features an adorable white bear with a charming blue bandana and yellow star detail. Its fluffy texture and whimsical design create a sense of comfort and playfulness, perfect for adding a touch of cuteness to your everyday life. [IMAGE] Measuring compactly for easy carrying, this plush keychain is lightweight and durable, designed to be attached to bags, keys, or even backpacks. The high-quality plush fabric ensures long-lasting softness and a gentle touch, while the detailed blue triangle scarf with a yellow star adds a playful, eye-catching accent to its adorable appearance. Perfect as a daily accessory, this plush keychain transforms ordinary bags or keys into charming statements. It also makes an ideal gift for friends, kids, or anyone who loves cute and whimsical decor, bringing a smile and a sense of comfort to any space or outfit.",
+    "invitationId": "IVCN202507240989",
+    "attributes": {
+      "brand": "No Brand",
+      "origin": "China",
+      "material": "Plush, Polyester",
+      "size": ""
+    },
+    "leadTime": 5
+  },
+  "r2": {
+    "basePath": "products/[LSJX00031] 蓝星三角巾小熊_素材包/",
+    "baseUrl": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/",
+    "syncedAt": "2026-05-24T15:47:22.169Z",
+    "images": {
+      "main": [
+        {
+          "fileName": "主_1.jpg",
+          "url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_1.jpg"
+        },
+        {
+          "fileName": "主_2.jpg",
+          "url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E4%BA%A7%E5%93%81%E4%B8%BB%E5%9B%BE/%E4%B8%BB_2.jpg"
+        }
+      ],
+      "sku": [
+        {
+          "fileName": "SKU_1.jpg",
+          "url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_1.jpg"
+        },
+        {
+          "fileName": "SKU_2.jpg",
+          "url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/SKU%E5%9B%BE/SKU_2.jpg"
+        }
+      ],
+      "detail": [
+        {
+          "fileName": "详情_1.jpg",
+          "url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_1.jpg"
+        },
+        {
+          "fileName": "详情_2.jpg",
+          "url": "https://yutu.nv315.top/products/%5BLSJX00031%5D%20%E8%93%9D%E6%98%9F%E4%B8%89%E8%A7%92%E5%B7%BE%E5%B0%8F%E7%86%8A_%E7%B4%A0%E6%9D%90%E5%8C%85/%E8%AF%A6%E6%83%85%E5%9B%BE/%E8%AF%A6%E6%83%85_2.jpg"
+        }
+      ],
+      "size": [],
+      "certificate": []
+    },
+    "toolVersion": "4.0.0-beta.1",
+    "stockSummary": {
+      "totalStock": 200,
+      "skuCount": 2
+    }
+  }
+}
