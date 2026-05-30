@@ -3,7 +3,10 @@
  * 在浏览器页面右下角注入实时进度悬浮窗
  */
 
+const OVERLAY_ENABLED = false
+
 export async function updateOverlay(page, step, status, message) {
+  if (!OVERLAY_ENABLED) return
   const colors = { running: '#1890ff', success: '#52c41a', error: '#ff4d4f', warn: '#faad14' }
   const icons  = { running: '⏳', success: '✅', error: '❌', warn: '⚠️' }
   const color  = colors[status] || '#1890ff'

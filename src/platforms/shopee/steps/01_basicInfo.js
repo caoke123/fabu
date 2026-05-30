@@ -4,19 +4,35 @@ import { logger } from '../../../utils/logger.js'
 import { captureError } from '../../../utils/screenshot.js'
 import { clickWithFallback, fillWithFallback, scrollIntoView, waitForUploadByCount } from '../../../utils/selector.js'
 import { getMainImages, getDetailImages } from '../../../utils/fileHelper.js'
+import { handlePopups } from '../navigator.js'
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
 export async function run(page, product) {
   logger.info('=== Step 01: 基础信息填写 ===')
 
+  await handlePopups(page)
+  await delay(500)
+
   // 1. 选品类
   try {
     await scrollIntoView(page, '.ssc-input-cascader-container-single')
     const { selectCategory } = await import('../navigator.js')
-    const categoryLevels = product.platforms?.shopee?.category
-    if (!categoryLevels || categoryLevels.length === 0) {
+    const categoryKeys = product.platforms?.shopee?.category
+    if (!categoryKeys || categoryKeys.length === 0) {
       throw new Error('platforms.shopee.category 为空，请填写品类')
+    }
+    let categoryLevels = []
+    for (const key of categoryKeys) {
+      const mapped = config.categories[key]
+      if (mapped && mapped.length > 0) {
+        categoryLevels.push(...mapped)
+      } else {
+        categoryLevels.push(key)
+      }
+    }
+    if (categoryLevels.length === 0) {
+      throw new Error(`品类 "${categoryKeys.join(',')}" 在 config.categories 中未配置`)
     }
     await selectCategory(page, categoryLevels)
   } catch (err) {

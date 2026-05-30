@@ -7,20 +7,48 @@ import { updateOverlay } from '../../utils/overlay.js'
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
+const POPUP_CLICK_TIMEOUT = 3000
+
 export async function handlePopups(page) {
   if (!config.popup.enabled) return
   await delay(config.timing.popupWait)
+
   for (const sel of config.popup.closeSelectors) {
     try {
       const btn = await page.$(sel)
-      if (btn) {
-        await btn.click()
-        logger.info(`弹窗已关闭: ${sel}`)
-        await delay(config.timing.actionDelay)
-      }
+      if (!btn) continue
+
+      const visible = await btn.isVisible().catch(() => false)
+      if (!visible) continue
+
+      await btn.click({ timeout: POPUP_CLICK_TIMEOUT })
+      logger.info(`弹窗已关闭: ${sel}`)
+      await delay(config.timing.actionDelay)
     } catch {
       // 点不到就跳过
     }
+  }
+
+  try {
+    const modalContainer = await page.$('.eds-modal__container')
+    if (modalContainer) {
+      const closeBtn = await modalContainer.$('button.eds-modal__close, .eds-modal__header button, .eds-modal__footer button')
+      if (closeBtn) {
+        await closeBtn.click({ timeout: POPUP_CLICK_TIMEOUT })
+        logger.info('弹窗已关闭 (eds-modal close button)')
+        await delay(config.timing.actionDelay)
+        return
+      }
+      const anyBtn = await modalContainer.$('button')
+      if (anyBtn) {
+        const text = await anyBtn.textContent()
+        logger.info(`弹窗已关闭 (eds-modal button: "${text.trim()}")`)
+        await anyBtn.click({ timeout: POPUP_CLICK_TIMEOUT })
+        await delay(config.timing.actionDelay)
+      }
+    }
+  } catch {
+    // skip
   }
 }
 

@@ -4,11 +4,15 @@ import { logger } from '../../../utils/logger.js'
 import { captureError } from '../../../utils/screenshot.js'
 import { getSkuImage } from '../../../utils/fileHelper.js'
 import { scrollIntoView, waitForUploadByCount } from '../../../utils/selector.js'
+import { handlePopups } from '../navigator.js'
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
 export async function run(page, product) {
   logger.info('=== Step 03: SKU 规格 ===')
+
+  await handlePopups(page)
+  await delay(500)
 
   try {
     await page.waitForSelector(SELECTORS.sku.variantNameInputFallback, { timeout: 10000 })

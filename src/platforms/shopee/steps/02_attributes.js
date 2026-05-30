@@ -1,6 +1,7 @@
 import { logger } from '../../../utils/logger.js'
 import { captureError } from '../../../utils/screenshot.js'
 import { updateOverlay } from '../../../utils/overlay.js'
+import { handlePopups } from '../navigator.js'
 
 const LABEL_MAP = {
   brand: '品牌',
@@ -194,6 +195,8 @@ export async function run(page, product) {
 
   await page.waitForSelector('.attribute-select-container-new', { timeout: 10000 })
   await delay(1000)
+
+  await handlePopups(page)
 
   // 先展开"显示更多"
   try {
